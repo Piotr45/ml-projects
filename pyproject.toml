@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml-projects"
+version = "0.1.0"
+description = "Some machine learning projects"
+authors = ["Piotr45 <baryczkowski.piotr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.5"
+numpy = "^1.23.5"
+seaborn = "^0.12.1"
+scikit-learn = "^1.1.3"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
